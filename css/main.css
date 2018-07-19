@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    min-width: 40vw;
+    max-width: 40vh;
+}
+
+.logo{
+    border: 1px solid;
+    min-width: 30vw;
+    min-height: 40vh;
+    margin-bottom: 2vh;
+}
