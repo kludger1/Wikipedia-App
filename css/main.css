@@ -47,7 +47,7 @@ button {
     
 }
 button:hover{
-    box-shadow: 0 8px 16px 0 darkgray;
+    background-color: green;
 }
 input{
     padding: 10px 24px;

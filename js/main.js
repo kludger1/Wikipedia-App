@@ -31,13 +31,11 @@ function getWiki() {
 
 
 
-
-
-
-
-
-
-
+searchTerm.addEventListener("keyup", function(event){
+    if (event.keyCode === 13){
+        getWiki()
+    }
+})
 
 search.addEventListener("click", getWiki)
 random.addEventListener("click", function(){
